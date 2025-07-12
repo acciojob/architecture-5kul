@@ -1,67 +1,60 @@
-/*  your css code here. If applicable */
 body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      background-color: #e5e5e5;
-    }
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #e6e6e6;
+}
 
-    .banner {
-      width: 100%;
-      text-align: center;
-    }
+.top-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
 
-    .banner img {
-      width: 100%;
-      max-height: 300px;
-      object-fit: cover;
-    }
+.main-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #d9d9d9;
+}
 
-    .container {
-      display: flex;
-      justify-content: space-between;
-      padding: 20px;
-      background-color: #f0f0f0;
-    }
+.left-side, .right-side {
+  width: 20%;
+  background-color: #ccc;
+  padding: 10px;
+  text-align: center;
+}
 
-    .left, .right {
-      width: 20%;
-      background-color: #dcdcdc;
-      padding: 10px;
-      text-align: center;
-    }
+.center-section {
+  width: 58%;
+  background-color: white;
+  padding: 20px;
+  box-sizing: border-box;
+}
 
-    .left img, .right img {
-      width: 100%;
-      height: auto;
-    }
+.left-side img, .right-side img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
 
-    .left p, .right p {
-      font-size: 14px;
-    }
+.unit {
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
 
-    .middle {
-      width: 55%;
-      background-color: white;
-      padding: 20px;
-      text-align: center;
-    }
+.objective h3 {
+  text-align: center;
+  margin-bottom: 10px;
+}
 
-    .middle h2 {
-      margin-bottom: 10px;
-    }
+.objective p {
+  font-size: 14px;
+  text-align: justify;
+  line-height: 1.6;
+}
 
-    .objective {
-      text-align: left;
-      font-size: 14px;
-      margin-top: 20px;
-    }
-
-    .bold-title {
-      font-weight: bold;
-    }
-
-    .learn-more {
-      color: blue;
-      text-decoration: underline;
-      cursor: pointer;
-    }
+a {
+  color: blue;
+  text-decoration: underline;
+}
